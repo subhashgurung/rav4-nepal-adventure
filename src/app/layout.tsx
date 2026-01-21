@@ -11,7 +11,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   // Core Meta
   title: {
-    default: "Toyota RAV4 2026 | Tame The Untamed - Nepal Adventure Edition",
+    default: "Toyota RAV4 2026: Tame the Untamed | Nepal Adventure Edition",
     template: "%s | Toyota RAV4 Nepal",
   },
   description: "The 2026 Toyota RAV4 Nepal Adventure Edition. Engineered for the Wilds of Nepal with AWD-i intelligence, Multi-Terrain Select with 6 modes, TRD suspension, and 302HP hybrid power. Conquer Mustang, the Himalayas, and Terai.",
@@ -52,11 +52,11 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://rav4-nepal-adventure.vercel.app",
     siteName: "Toyota RAV4 Nepal Adventure",
-    title: "Toyota RAV4 2026 | Tame The Untamed",
+    title: "Toyota RAV4 2026: Tame the Untamed | Nepal",
     description: "Engineered for the Wilds of Nepal. AWD-i intelligence, Multi-Terrain Select, TRD suspension, and 302HP hybrid power.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://rav4-nepal-adventure.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Toyota RAV4 2026 Nepal Adventure Edition",
@@ -67,9 +67,9 @@ export const metadata: Metadata = {
   // Twitter Card
   twitter: {
     card: "summary_large_image",
-    title: "Toyota RAV4 2026 | Tame The Untamed - Nepal Adventure",
+    title: "Toyota RAV4 2026: Tame the Untamed | Nepal",
     description: "Engineered for the Wilds of Nepal. Experience unmatched AWD-i intelligence and TRD suspension.",
-    images: ["/og-image.jpg"],
+    images: ["https://rav4-nepal-adventure.vercel.app/og-image.jpg"],
     creator: "@ToyotaNepal",
   },
 
