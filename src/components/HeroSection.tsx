@@ -38,8 +38,8 @@ export function HeroSection() {
                     muted
                     loop
                     playsInline
+                    preload="metadata"
                     className="w-full h-full object-cover"
-                    poster="/videos/hero-poster.jpg"
                 >
                     <source src="/videos/hero.mp4" type="video/mp4" />
                 </video>

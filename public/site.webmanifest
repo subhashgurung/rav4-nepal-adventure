@@ -1,0 +1,16 @@
+{
+    "name": "Toyota RAV4 Nepal Adventure",
+    "short_name": "RAV4 Nepal",
+    "description": "The 2026 Toyota RAV4 - Engineered for the Wilds of Nepal",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#050505",
+    "theme_color": "#EB1C23",
+    "icons": [
+        {
+            "src": "/icon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ]
+}
