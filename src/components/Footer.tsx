@@ -3,6 +3,7 @@
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useRef, useEffect } from "react";
 import { ExternalLink, Instagram, Youtube, Twitter } from "lucide-react";
+import { ReserveButton } from "./ReserveButton";
 
 const footerLinks = [
     { name: "Build & Price", href: "#" },
@@ -102,6 +103,11 @@ export function Footer() {
         >
             {/* Interactive Tagline Section */}
             <MouseFollowTagline />
+
+            {/* Reserve CTA */}
+            <div className="flex justify-center pb-12">
+                <ReserveButton />
+            </div>
 
             {/* Main Footer Content */}
             <div className="max-w-7xl mx-auto px-4 md:px-8 py-12 border-t border-white/5">

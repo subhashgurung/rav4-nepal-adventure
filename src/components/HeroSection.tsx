@@ -2,9 +2,8 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { MagneticButton } from "./MagneticButton";
+import { ReserveButton } from "./ReserveButton";
 import { ScrollMouseIcon } from "./ScrollMouseIcon";
-import { ArrowRight } from "lucide-react";
 
 export function HeroSection() {
     const containerRef = useRef<HTMLDivElement>(null);
@@ -92,10 +91,7 @@ export function HeroSection() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 1.4, duration: 0.8 }}
                 >
-                    <MagneticButton className="px-8 py-4 text-white font-headline font-semibold text-lg uppercase tracking-wider rounded-full">
-                        Build Your RAV4
-                        <ArrowRight size={20} />
-                    </MagneticButton>
+                    <ReserveButton />
                 </motion.div>
             </motion.div>
 
